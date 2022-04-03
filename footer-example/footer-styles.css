@@ -1,0 +1,43 @@
+body {
+    background-color: #eeeeee;
+    font-style: normal;
+    font-size: 12px;
+
+}
+
+
+.list-header {
+    font-weight:500;
+    margin-top: 10px;
+    color: #000000 !important;
+}
+
+/* Overrides list-group-item from Bootstrap */ 
+.list-group-item {
+    border: none;
+    background-color: transparent;
+    padding: 3px 10px;
+    color: #666666;
+    padding-left: 0px;
+}
+
+.list-group-item > a{
+    color: #666666;
+    text-decoration: none;
+}
+
+.list-group-item > a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+
+i {
+    font-size: 16px;
+    color: #666666;
+    vertical-align: center;
+}
+
+hr {
+    width: 85%;
+
+}
